@@ -1,0 +1,7 @@
+# Terraform state holds real resource data and secrets: never commit it
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+crash.log
